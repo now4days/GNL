@@ -6,7 +6,7 @@
 /*   By: mdark <mdark@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/12/27 16:28:29 by mdark             #+#    #+#             */
-/*   Updated: 2022/01/04 20:04:38 by mdark            ###   ########.fr       */
+/*   Updated: 2022/01/09 07:52:07 by mdark            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -71,7 +71,6 @@ char	*get_next_line(int fd)
 	buff = NULL;
 	if (!line)
 		return (NULL);
-	remainder = subline_ft
-(line);
+	remainder = subline_ft(line);
 	return (line);
 }
